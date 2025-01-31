@@ -3780,7 +3780,7 @@
 	)
 	(wire
 		(pts
-			(xy 276.86 39.37) (xy 279.4 39.37)
+			(xy 276.86 39.37) (xy 283.21 39.37)
 		)
 		(stroke
 			(width 0)
@@ -4230,7 +4230,7 @@
 	)
 	(wire
 		(pts
-			(xy 275.59 25.4) (xy 278.13 25.4)
+			(xy 275.59 25.4) (xy 283.21 25.4)
 		)
 		(stroke
 			(width 0)
@@ -4430,7 +4430,7 @@
 	)
 	(wire
 		(pts
-			(xy 314.96 27.94) (xy 314.96 33.02)
+			(xy 314.96 24.13) (xy 314.96 33.02)
 		)
 		(stroke
 			(width 0)
@@ -4580,7 +4580,7 @@
 	)
 	(wire
 		(pts
-			(xy 302.26 27.94) (xy 302.26 33.02)
+			(xy 302.26 24.13) (xy 302.26 33.02)
 		)
 		(stroke
 			(width 0)
@@ -4620,7 +4620,7 @@
 	)
 	(wire
 		(pts
-			(xy 328.93 27.94) (xy 328.93 33.02)
+			(xy 328.93 24.13) (xy 328.93 33.02)
 		)
 		(stroke
 			(width 0)
@@ -5104,6 +5104,28 @@
 			)
 		)
 	)
+	(global_label "3.3V"
+		(shape input)
+		(at 302.26 24.13 90)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "0b0e5099-0f56-48a0-aadd-bee259cd8e4a")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 302.26 17.0324 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
 	(global_label "XC2"
 		(shape input)
 		(at 194.31 60.96 0)
@@ -5280,28 +5302,6 @@
 			)
 		)
 	)
-	(global_label "VCC_BUS"
-		(shape input)
-		(at 279.4 39.37 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "1c763b56-8ed6-423d-93a2-f20a9b7f751b")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 290.7914 39.37 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-	)
 	(global_label "DEC4"
 		(shape input)
 		(at 208.28 29.21 90)
@@ -5359,28 +5359,6 @@
 		(uuid "25ad880f-025d-45ea-b3da-1dfc71c2adfa")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 121.92 28.9463 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "VCC_BUS"
-		(shape input)
-		(at 328.93 27.94 90)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "272c5c0a-8a7b-4ef5-9a2b-50b5300b546d")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 328.93 16.5486 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5500,28 +5478,6 @@
 			)
 		)
 	)
-	(global_label "VCC_BUS"
-		(shape input)
-		(at 129.54 36.83 90)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "3a7fa006-540a-4966-920a-389c06c2c689")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 129.54 25.4386 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-	)
 	(global_label "XL2"
 		(shape input)
 		(at 227.33 60.96 0)
@@ -5566,9 +5522,9 @@
 			)
 		)
 	)
-	(global_label "VCC_BUS"
+	(global_label "3.3V"
 		(shape input)
-		(at 278.13 25.4 0)
+		(at 283.21 39.37 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -5576,9 +5532,9 @@
 			)
 			(justify left)
 		)
-		(uuid "4d6122c5-ee4a-4018-99dc-9542ce05381a")
+		(uuid "4a2b5d3c-eaf0-499b-bf5a-ccadde3ab4f8")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 289.5214 25.4 0)
+			(at 290.3076 39.37 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5667,6 +5623,28 @@
 		(uuid "5782af27-dec5-4dce-aed1-c690691821b2")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 162.8842 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "3.3V"
+		(shape input)
+		(at 129.54 36.83 90)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "64d6e914-45ef-440b-bc7b-690a1c2c77ce")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 129.54 29.7324 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5843,6 +5821,28 @@
 		(uuid "75f183ba-d0e1-493d-9d6c-48b02605ce15")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 116.84 28.9463 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "3.3V"
+		(shape input)
+		(at 314.96 24.13 90)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "779f1b44-910b-4eb6-9490-cd6a9f6cd738")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 314.96 17.0324 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6160,6 +6160,28 @@
 			)
 		)
 	)
+	(global_label "3.3V"
+		(shape input)
+		(at 283.21 25.4 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "ca3fec4e-4fe6-4bf1-9bf2-31343095b0d1")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 290.3076 25.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
 	(global_label "A6"
 		(shape input)
 		(at 156.21 119.38 0)
@@ -6270,28 +6292,6 @@
 			)
 		)
 	)
-	(global_label "VCC_BUS"
-		(shape input)
-		(at 314.96 27.94 90)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "d5b0e0c0-1179-4e19-89c6-20f923a1acd4")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 314.96 16.5486 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-	)
 	(global_label "A5"
 		(shape input)
 		(at 156.21 116.84 0)
@@ -6327,6 +6327,28 @@
 		(uuid "dd549427-6d11-4b51-83c0-8cb262ccf310")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 162.6423 48.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "3.3V"
+		(shape input)
+		(at 328.93 24.13 90)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "e1e5faf1-5d1a-4479-8ffd-7b474a207465")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 328.93 17.0324 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6437,28 +6459,6 @@
 		(uuid "f04dd014-cada-44ea-982f-5c74ed131bcb")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 161.4933 121.92 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "VCC_BUS"
-		(shape input)
-		(at 302.26 27.94 90)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "f93135f3-8b99-4a16-b43b-c63657bc06bb")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 302.26 16.5486 90)
 			(effects
 				(font
 					(size 1.27 1.27)
